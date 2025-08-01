@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Roger Kitete</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style5.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Bienvenue</span>
+            </div>
+            <div class="theme-toggle">
+                <button id="themeToggle" class="theme-btn" aria-label="Toggle dark mode">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <img src="Moi.jpeg" auto=compress&cs=tinysrgb&w=400" alt="Photo de profil" class="profile-img">
+                    <div class="profile-ring"></div>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line"></span>
+                    <span class="title-highlight">Informatique de Gestion</span>
+                    <span class="title-line">& Communication</span>
+                </h1>
+                <p class="hero-description">
+                    Spécialisé dans l'optimisation des systèmes d'information et la stratégie de communication digitale. 
+                    Je transforme les défis technologiques en solutions innovantes.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card" data-speed="0.8">
+                    <div class="card-icon">💼</div>
+                    <span>Gestion</span>
+                </div>
+                <div class="floating-card" data-speed="1.2">
+                    <div class="card-icon">📊</div>
+                    <span>Analyse</span>
+                </div>
+                <div class="floating-card" data-speed="1.0">
+                    <div class="card-icon">🚀</div>
+                    <span>Innovation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences Section -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-category="technique">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Informatique de Gestion</h3>
+                    <p>ERP, CRM, Business Intelligence, Analyse de données, Optimisation des processus</p>
+                    <div class="skill-tags">
+                        <span class="tag">SAP</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">Power BI</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card" data-category="communication">
+                    <div class="skill-icon">📢</div>
+                    <h3>Communication Digitale</h3>
+                    <p>Stratégie digitale, Marketing automation, Gestion de contenu, Réseaux sociaux</p>
+                    <div class="skill-tags">
+                        <span class="tag">SEO/SEM</span>
+                        <span class="tag">Analytics</span>
+                        <span class="tag">CMS</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card" data-category="technique">
+                    <div class="skill-icon">💻</div>
+                    <h3>Développement</h3>
+                    <p>Applications web, APIs, Bases de données, Architecture système, DevOps</p>
+                    <div class="skill-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">React</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card" data-category="gestion">
+                    <div class="skill-icon">📈</div>
+                    <h3>Gestion de Projet</h3>
+                    <p>Méthodologies agiles, Gestion d'équipe, Planification stratégique, ROI</p>
+                    <div class="skill-tags">
+                        <span class="tag">Scrum</span>
+                        <span class="tag">Kanban</span>
+                        <span class="tag">Jira</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets Section -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projets Réalisés</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="project-type">ERP Implementation</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Système de Gestion Intégré</h3>
+                        <p>Implémentation d'un ERP complet pour optimiser les processus d'une PME de 150 employés.</p>
+                        <div class="project-tech">
+                            <span>SAP</span>
+                            <span>SQL Server</span>
+                            <span>Power BI</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-number">30%</span>
+                                <span class="stat-label">Gain de productivité</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="project-type">Digital Strategy</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Plateforme E-commerce</h3>
+                        <p>Stratégie digitale complète avec développement d'une plateforme de vente en ligne.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-number">190%</span>
+                                <span class="stat-label">Croissance des ventes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="project-type">Business Intelligence</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Dashboard Analytics</h3>
+                        <p>Tableau de bord interactif pour le suivi des KPIs et l'aide à la décision stratégique.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>Python</span>
+                            <span>Azure</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-number">50%</span>
+                                <span class="stat-label">Réduction du temps d'analyse</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Discutons de votre projet</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Transformons vos idées en solutions</h3>
+                    <p>Que vous ayez besoin d'optimiser vos processus, de développer une stratégie digitale ou de créer une solution sur mesure, je suis là pour vous accompagner.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">📧</div>
+                            <div class="method-info">
+                                <span class="method-label">Email</span>
+                                <span class="method-value">Rogerkitete2@gmail.com</span>
+                                <span class="method-value">Rogerkitete2@outlook.fr</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">💼</div>
+                            <div class="method-info">
+                                <span class="method-label">LinkedIn</span>
+                                <span class="method-value">Roger Kitete</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">📱</div>
+                            <div class="method-info">
+                                <span class="method-label">Téléphone</span>
+                                <span class="method-value">+243829618199</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Nom complet</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Adresse email</label>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="">Sélectionnez un service</option>
+                            <option value="erp">Implémentation ERP</option>
+                            <option value="digital">Stratégie Digitale</option>
+                            <option value="development">Développement Web</option>
+                            <option value="consulting">Conseil en SI</option>
+                            <option value="other">Autre projet</option>
+                        </select>
+                        <label for="service">Type de projet</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Description du projet</label>
+                    </div>
+                    <button type="submit" class="btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Roger Kitete Portfolio Professionnel. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Mentions légales</a>
+                    <a href="#" class="footer-link">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
